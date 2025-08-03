@@ -1,0 +1,12 @@
+.product-card {
+  max-width: 150px;
+}
+.product-list {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 3rem;
+  .product-card {
+    max-width: 200px;
+  }
+}
